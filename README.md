@@ -11,3 +11,8 @@ This github contains the codes as well as the conda environments used for the ma
 
 ## MI and ORB-SIFT
 To use the codes in these two folders, the images should first be fetched. This can be done through the jupyter notebook **fetch_imgs.ipynb** using Cytomine 2.8.0 at least (the environments in MI and ORB-SIFT should work). The images will be fetched in the **"ORB-SIFT (OpenCV)/"** folder but the folder created, "fetched_imgs/" can be transfered to the **"MI (SITK)/"** folder to run those codes.
+
+Jupyter notebooks **register_all.ipynb** are available in both folders to run the registration on all pairs.
+
+## U-net
+To use the U-net segmentatio. The specific dataset should first be created in "ORB-SIFT (OpenCV)/" folder. The dataset will then be stored in the "dataset_custom/" subfolder that should be transfered to the "U-net (Pytorch)/" folder.
