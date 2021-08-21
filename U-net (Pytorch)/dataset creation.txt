@@ -1,0 +1,2 @@
+The dataset creation was made with the ORB registration.
+The code to build "dataset_custom" can be found in the "../OpenCV/" folder.
