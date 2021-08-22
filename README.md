@@ -15,4 +15,6 @@ To use the codes in these two folders, the images should first be fetched. This 
 Jupyter notebooks **register_all.ipynb** are available in both folders to run the registration on all pairs.
 
 ## U-net
-To use the U-net segmentatio. The specific dataset should first be created in "ORB-SIFT (OpenCV)/" folder. The dataset will then be stored in the "dataset_custom/" subfolder that should be transfered to the "U-net (Pytorch)/" folder. This can be done through the **create_dataset_dl.ipynb** jupyter notebook inside the "ORB-SIFT (OpenCV)/" folder.
+To use the U-net segmentation. The specific dataset should first be created in "ORB-SIFT (OpenCV)/" folder. The dataset will then be stored in the "dataset_custom/" subfolder that should be transfered to the "U-net (Pytorch)/" folder. This can be done through the **create_dataset_dl.ipynb** jupyter notebook inside the "ORB-SIFT (OpenCV)/" folder.
+
+The network can then be trained and tested using the notebook **train_and_test.ipynb**.
